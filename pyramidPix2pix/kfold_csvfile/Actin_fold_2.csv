@@ -1,0 +1,5 @@
+ImageA,ImageB,SSIM,PCC,MAE,ECD
+image_108_Actin.ome.tiff,image_108_Actin.ome_fake_B.png,0.3280,0.5635,0.0985,199.5247
+image_54_Actin.ome.tiff,image_54_Actin.ome_fake_B.png,0.2801,0.4943,0.0959,283.8652
+image_98_Actin.ome.tiff,image_98_Actin.ome_fake_B.png,0.2963,0.4607,0.1344,244.0770
+image_53_Actin.ome.tiff,image_53_Actin.ome_fake_B.png,0.2175,0.0509,0.1294,339.1525
