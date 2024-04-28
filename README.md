@@ -28,10 +28,10 @@ python test.py --dataroot ./datasets/facades --name facades_pix2pix --model pix2
 
 ## Our weights
 
-## pyramidPix2pix
-python test.py --dataroot /input/images/organelles-transmitted-light-ome-tiff --name light2Actin --no_dropout
-
 ## cyclegan
+https://pan.baidu.com/s/1Jcvl74IDmCaqxXLVQjkdXQ?pwd=lv7b 
+## pyramidPix2pix
+https://pan.baidu.com/s/1c-9pv9i_uus1fhQm_2-Nyw?pwd=jryj 
 
 
 ## References
