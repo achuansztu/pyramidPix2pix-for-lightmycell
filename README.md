@@ -21,7 +21,7 @@ python test.py --dataroot /input/images/organelles-transmitted-light-ome-tiff --
 python train.py --dataroot ./datasets/fold_data/Nucleus_fold_0 --name Nucleus_fold_0 --gpu_ids 3 --pattern L1_L2_L3_L4
 
 ### Testing
-python test.py --dataroot /input/images/organelles-transmitted-light-ome-tiff --name light2Tubulin
+python test.py --dataroot /input/images/organelles-transmitted-light-ome-tiff --name light2Nucleus  --no_dropout
 
 
 
