@@ -24,6 +24,12 @@ python test.py --dataroot ./datasets/facades --name facades_pix2pix --model cycl
 
 ## Our weights
 
+## pyramidPix2pix
+
+
+## cyclegan
+
+
 ## References
 Make sure to refer to the original repositories for more detailed instructions:
 
