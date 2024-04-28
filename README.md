@@ -5,7 +5,7 @@ This repository contains implementations for pyramidPix2pix and CycleGAN for the
 ## pyramidPix2pix
 
 ### Training
-```bash
+
 python train.py --dataroot ./datasets/fold_data/Nucleus_fold_0 --name Nucleus_fold_0 --gpu_ids 3 --pattern L1_L2_L3_L4
 
 ### Testing
