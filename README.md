@@ -20,7 +20,7 @@ python train.py --dataroot ./datasets/ac_fold_0 --name ac_fold0 --model cycle_ga
 
 
 ### Testing
-python test.py --dataroot ./datasets/facades --name facades_pix2pix --model cycle_gan
+python test.py --dataroot ./datasets/facades --name facades_pix2pix --model cycle_gan --no_dropout
 
 ## Our weights
 
