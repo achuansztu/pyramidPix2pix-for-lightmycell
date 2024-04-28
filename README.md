@@ -12,7 +12,7 @@ python train.py --dataroot ./datasets/ac_fold_0 --name ac_fold0 --model cycle_ga
 
 
 ### Testing
-python test.py --dataroot ./datasets/facades --name facades_pix2pix --model cycle_gan --no_dropout
+python test.py --dataroot /input/images/organelles-transmitted-light-ome-tiff --name light2Actin --no_dropout
 
 ## pyramidPix2pix
 
@@ -21,7 +21,7 @@ python test.py --dataroot ./datasets/facades --name facades_pix2pix --model cycl
 python train.py --dataroot ./datasets/fold_data/Nucleus_fold_0 --name Nucleus_fold_0 --gpu_ids 3 --pattern L1_L2_L3_L4
 
 ### Testing
-python test.py --dataroot ./datasets/facades --name facades_pix2pix --model pix2pix
+python test.py --dataroot /input/images/organelles-transmitted-light-ome-tiff --name light2Tubulin
 
 
 
