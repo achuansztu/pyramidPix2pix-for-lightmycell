@@ -15,12 +15,14 @@ python test.py --dataroot ./datasets/facades --name facades_pix2pix --model pix2
 ## cyclegan
 
 ### Training
-```bash
+
 python train.py --dataroot ./datasets/ac_fold_0 --name ac_fold0 --model cycle_gan --gpu_ids 3
 
 
 ### Testing
 python test.py --dataroot ./datasets/facades --name facades_pix2pix --model cycle_gan
 
+Make sure to refer to the original repositories for more detailed instructions:
 
+https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix and https://github.com/bupt-ai-cz/BCI
 
