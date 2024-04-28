@@ -22,6 +22,8 @@ python train.py --dataroot ./datasets/ac_fold_0 --name ac_fold0 --model cycle_ga
 ### Testing
 python test.py --dataroot ./datasets/facades --name facades_pix2pix --model cycle_gan
 
+## Our weights
+
 ## References
 Make sure to refer to the original repositories for more detailed instructions:
 
