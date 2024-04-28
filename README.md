@@ -1,15 +1,7 @@
-# pyramidPix2pix/cyclegan-for-lightmycell
+# cyclegan/pyramidPix2pix-for-lightmycell
 
-This repository contains implementations for pyramidPix2pix and CycleGAN for the project "lightmycell".
+This repository contains implementations for CycleGAN and pyramidPix2pix for the project "lightmycell".
 
-## pyramidPix2pix
-
-### Training
-
-python train.py --dataroot ./datasets/fold_data/Nucleus_fold_0 --name Nucleus_fold_0 --gpu_ids 3 --pattern L1_L2_L3_L4
-
-### Testing
-python test.py --dataroot ./datasets/facades --name facades_pix2pix --model pix2pix
 
 
 ## cyclegan
@@ -22,10 +14,22 @@ python train.py --dataroot ./datasets/ac_fold_0 --name ac_fold0 --model cycle_ga
 ### Testing
 python test.py --dataroot ./datasets/facades --name facades_pix2pix --model cycle_gan --no_dropout
 
+## pyramidPix2pix
+
+### Training
+
+python train.py --dataroot ./datasets/fold_data/Nucleus_fold_0 --name Nucleus_fold_0 --gpu_ids 3 --pattern L1_L2_L3_L4
+
+### Testing
+python test.py --dataroot ./datasets/facades --name facades_pix2pix --model pix2pix
+
+
+
+
 ## Our weights
 
 ## pyramidPix2pix
-
+python test.py --dataroot /input/images/organelles-transmitted-light-ome-tiff --name light2Actin --no_dropout
 
 ## cyclegan
 
